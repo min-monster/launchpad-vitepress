@@ -1,0 +1,16 @@
+{
+  "name": "launchpad-vitepress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/min-monster/launchpad-vitepress.git",
+  "author": "ChungMin Wen <chungmin.wen@monster.com>",
+  "license": "MIT",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:serve": "vitepress serve docs"
+  },
+  "devDependencies": {
+    "vitepress": "^0.15.6"
+  }
+}
